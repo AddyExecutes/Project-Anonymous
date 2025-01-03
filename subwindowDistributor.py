@@ -13,8 +13,6 @@ win_Y_diff = 0
 cursor_default = False
 
 
-# Project name
-project_name = "Project 1"
 
 def window():
 
@@ -29,7 +27,7 @@ def window():
 
     coordinates = (win_X, win_Y, win_W, win_H)
     bdr_rad = 3
-    heading = "New Project"
+    heading = "subWindow Distributor Demo"
     header_H = 30
 
     # Mouse coordinates
@@ -80,23 +78,6 @@ def window():
 
     """ Body """
 
-    # Name of the project
-
-    # Name entry
-    name_entry_padding = 20
-    name_entry_X = coordinates[0] + name_entry_padding
-    name_entry_Y = coordinates[1] + 50
-    name_entry_W = coordinates[2] - (name_entry_padding*2)
-    name_entry_H = 20
-
-    graphics.Shape.rect(rgbcode.entry_BG, (name_entry_X, name_entry_Y, name_entry_W, name_entry_H))
-    
-
-    # Name
-    graphics.Text.text(project_name, (name_entry_X+5, name_entry_Y+2), textFG = rgbcode.dark_font)
-
-
-
 
 
 
@@ -111,7 +92,6 @@ def window():
 
     # List of widgets
     widgets = [
-        {"x": name_entry_X, "y": name_entry_Y, "w": name_entry_W, "h": name_entry_H, "cursor": "i-beam"}
     ]
 
 

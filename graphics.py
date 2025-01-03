@@ -11,7 +11,7 @@ fontPath = path.font
 italic_fontPath = path.italicfont
 
 default_fontSize = "m"
-textFG = rgbcode.font
+textFG = rgbcode.light_font
 textBG = None
 
 

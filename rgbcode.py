@@ -7,8 +7,11 @@ fade_white = (200, 200, 200)
 theme = (33, 33, 33)
 
 # Font
-font = (247, 249, 249)
-font_secondary = (179, 182, 183)
+light_font = (247, 249, 249)
+light_font_secondary = (179, 182, 183)
+
+dark_font = (0, 0, 0)
+dark_font_secondary = (50, 50, 50)
 
 # Taskbar
 taskbar = (44, 44, 44)
